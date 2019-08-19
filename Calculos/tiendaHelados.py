@@ -9,10 +9,10 @@ def run(cuenta):
         pagar(0.1,cuenta) 
 
     elif membresia == 2:
-        pagar(0.1,cuenta)
+        pagar(0.2,cuenta)
 
     elif membresia == 3:
-        pagar(0.1,cuenta)
+        pagar(0.3,cuenta)
 
     else:
         print("Error. Digite nuevamente")

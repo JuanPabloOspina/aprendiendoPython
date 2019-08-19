@@ -1,6 +1,6 @@
 # -*- codign: utf-8 -*-
 def run():
-    myString = raw_input("Ingrese un caracter para ver su ultima legra: ")
+    myString = input("Ingrese un caracter para ver su ultima letra: ")
     print( myString[ len( myString) - 1 ])
 
     print(myString.upper())
