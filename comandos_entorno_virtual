@@ -1,0 +1,15 @@
+ejecutar pip
+intalar el entorno virtual
+    py -m venv venv(nombre de la carpeta)
+activar el entorno virtual
+    cd venv\scripts
+    activate.bat
+salimos a la capeta principal
+    cd ..
+    cd ..
+instalamos los requerimientos necesarios
+    pip install -r requirements.txt
+
+pdd: los requirements.txt son los modulos necesarios para la importacion 
+    algunos modulos se trabaja con pip3 ......
+    
