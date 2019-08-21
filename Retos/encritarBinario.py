@@ -1,46 +1,47 @@
 # -*- coding: utf-8 -*-
 
 KEYS = {
-    'A': 'G',
-    'B': 'S',
-    'C': 'j',
-    'D': 'n',
-    'E': 's',
-    'F': 'Q',
-    'G': 'o',
-    'H': 'e',
-    'I': 'u',
-    'J': 'g',
-    'K': '2',
-    'L': '9',
-    'M': 'A',
-    'N': '5',
-    'O': '4',
-    'P': '?',
-    'Q': 'c',
-    'R': 'r',
-    'S': 'O',
-    'T': 'P',
-    'U': 'h',
-    'V': '6',
-    'W': 'q',
-    'X': 'H',
-    'Y': 'R',
-    'Z': 'l',
-    '0': 'k',
-    '1': '7',
-    '2': 'X',
-    '3': 'L',
-    '4': 'p',
-    '5': 'v',
-    '6': 'T',
-    '7': 'V',
-    '8': 'y',
-    '9': 'K',
-    ' ': 'E1'
+    'A': '1010',
+    'B': '1011',
+    'C': '1100',
+    'D': '1101',
+    'E': '1110',
+    'F': '1111',
+    'G': '10000',
+    'H': '10001',
+    'I': '10010',
+    'J': '10011',
+    'K': '10100',
+    'L': '10101',
+    'M': '10110',
+    'N': '10111',
+    'O': '11000',
+    'P': '11001',
+    'Q': '11010',
+    'R': '11011',
+    'S': '11100',
+    'T': '11101',
+    'U': '11110',
+    'V': '111111',
+    'W': '100000',
+    'X': '100001',
+    'Y': '100010',
+    'Z': '100011',
+    '0': '0',
+    '1': '1',
+    '2': '10',
+    '3': '11',
+    '4': '100',
+    '5': '101',
+    '6': '110',
+    '7': '111',
+    '8': '1000',
+    '9': '1001',
+    ' ': 'espace'
 }
 
 def cypher(message):
+    message.upper()
     words = message.split(' ')
     cypher_message = []
 
@@ -55,6 +56,7 @@ def cypher(message):
 
 
 def decipher(message):
+    message.upper()
     words = message.split(' ')
     decipher_message = []
 
@@ -86,12 +88,12 @@ def run():
         ''')
 
         if command == 'c':
-            message = input('Escribe tu mensaje: ')
+            message = str(input('Escribe tu mensaje: '))
             cypher_message = cypher(message)
             print(cypher_message)
 
         elif command == 'd':
-            message = input('Escribe tu mensaje tu cifrado: ')
+            message = str(input('Escribe tu mensaje: '))
             decypher_message = decipher(message)
             print(decypher_message)
         elif command == 's':
