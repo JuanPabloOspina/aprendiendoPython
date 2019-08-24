@@ -1,0 +1,49 @@
+-- SALUDO
+Ingrese su nombre: Perico
+Hola, Perico
+
+
+-- CIRCULO
+Ingrese el radio: 5
+Perimetro: 31.4
+Área: 78.5
+
+-- PROMEDIO
+Primera nota: 55
+Segunda nota: 71
+Tercera nota: 46
+Cuarta nota: 87
+El promedio es: 64.75
+
+-- CONVERSION DE LONGITUD
+Ingrese longitud: 45
+45 cm = 17.7165 pulgadas
+
+-- NUMERO INVERTIDO 
+Ingrese numero: 345
+543
+
+-- PITAGORAS
+Ingrese cateto a: 7
+Ingrese cateto b: 5
+La hipotenusa es 8.6023252670426267
+
+
+--HORA FUTURA
+Hora actual: 11
+Cantidad de horas: 43
+En 43 horas, el reloj marcara las 6
+
+
+-- Parte decimal
+Ingrese un numero: 4.19
+0.19
+
+
+-- NOTA NECESARIA
+Ingrese nota certamen 1: 45
+Ingrese nota certamen 2: 55
+Ingrese nota laboratorio: 65
+Necesita nota 73.6 en el certamen 3
+
+
