@@ -1,0 +1,49 @@
+-- DETERMINAR PAR
+Ingrese un número: 4
+Su número es par
+Ingrese un número: 3
+Su número es impar
+
+
+-- BISIESTO
+Ingrese un anno: 1988
+1988 es bisiesto
+
+
+-- DIVISION 
+Dividendo: 100
+Divisor: 10
+La división es exacta.
+Cociente: 10
+Resto: 0
+
+
+-- PALABRA MAS LARGA
+Palabra 1: edificio
+Palabra 2: tren
+La palabra edificio tiene 4 letras mas que tren.
+
+
+-- ORDENAMIENTO NUMEROS n NUMEROS
+Ingrese numero: 51
+Ingrese numero: 24
+24 51
+
+
+-- TRIANGULOS
+Ingrese a: 1.9
+Ingrese b: 2
+Ingrese c: 2
+El triangulo es isoceles.
+
+
+-- MASA CORPORAL
+El riesgo de que una persona sufra enfermedades 
+coronarias depende de su edad y su índice de masa corporal:
+ 	edad < 45	edad ≥ 45
+IMC < 22.0	bajo	medio
+IMC ≥ 22.0	medio	alto
+El índice de masa corporal es el cuociente entre el peso 
+del individuo en kilos y el cuadrado de su estatura en metros.
+Escriba un programa que reciba como entrada la estatura, 
+el peso y la edad de una persona, y le entregue su condición de riesgo.
