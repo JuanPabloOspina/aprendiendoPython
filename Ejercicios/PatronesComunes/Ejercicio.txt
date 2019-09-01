@@ -13,4 +13,13 @@ Ingrese número: 1
 El mayor es 23
 
 
---
+--FACTORIAL
+El factorial n! de un número entero n≥0, definido como:
+n!=1⋅2⋅3⋅⋯⋅n.
+Además, se define 0!=1.
+
+-- POTENCIA FACTORIAL 
+La potencia factorial creciente nm¯, definida como:
+nm¯=n(n+1)(n+2)⋯(n+m−1).
+
+
