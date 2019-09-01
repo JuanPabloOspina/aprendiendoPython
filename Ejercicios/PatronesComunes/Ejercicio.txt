@@ -4,4 +4,11 @@ Escriba un programa que muestre los números naturales menores o iguales que un 
   ---SUMA NATURALES 
   Escriba un programa que entregue la suma de los primeros n números naturales, siendo n ingresado por el usuario. Matemáticamente lo que se pide que haga el programa es realizar la siguiente sumatoria. S1=∑i=1ni=1+2+3+4+5+6+⋯+n Además, obtenga el resultado de la siguiente fórmula. S2n×(n+1)2 El programa debe entregar el resultado diciendo si S1 y S2 son iguales o no.
 
-  
+  -- NUMERO MAYOR
+Ingrese n: 4
+Ingrese número: 23
+Ingrese número: -34
+Ingrese número: 0
+Ingrese número: 1
+El mayor es 23
+
